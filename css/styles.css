@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+header {
+    background: linear-gradient(rgba(0,0,100,0.5), rgba(0,0,100,0.5)), url("/Day\ 6\ \"Homework\"/image/boracay.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    overflow: auto;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60 px;
+}
+
+nav ul {
+    float: right;
+    margin: 0%;
+    padding-right: 42px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 16px 32 px;
+    width: 100px;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+
+/* nav ul li a:link {
+    color: yellow;
+} */
+
+nav ul li a:visited {
+    color: blue;
+}
+
+nav ul li a:hover {
+    color: pink;
+    background-color:gray;
+    padding: 2px;
+}
+
+nav ul li a:active {
+    color:aqua;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    margin: 16px 48px;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 350px;
+    color: #fff;
+}
+
+.description {
+    width: 80%;
+    margin: 50px auto;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    text-align: justify;
+}
+
+.beach {
+    padding-left: 25%;
+    /* margin-top: 10px; */
+}
