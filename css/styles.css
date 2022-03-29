@@ -1,9 +1,47 @@
 body {
-    background-image: url("/image/background-image.png");
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    background-image: url("../image/background-image.png");
+    margin: auto;
+    padding: auto;
     background-attachment: fixed;
+}
+
+/* Hero */
+.hero {
+    border: 1px solid transparent;
+    background-color: gainsboro;
+    background-image: url("../image/siargao-coconut-palms-drone-shot-1\ copy.jpeg");
+    height: 600px;
+    background-position: bottom right;
+    margin-bottom: 0%;
+    /* background-attachment: fixed; */
+}
+
+.text-back-hero {
+   background-color: rgb(255, 255, 255,0.5);
+   padding: 12px 40px;
+   text-align: center;
+   float: right;
+   /* display:inline-block; */
+   position:relative;
+   top: 380px;
+   right: 50px;
+}
+
+.text-back-hero p {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+}
+
+header {
+    background-image: url("../image/hero.jpeg");
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    margin-top: -2px;
+    text-align: center;
+    background-attachment: fixed;
+    height: 700px;
 }
 
 nav {
@@ -49,20 +87,9 @@ nav ul li a:active {
 }
 
 .logo {
-    height: 100px;
+    height: 92px;
     float: left;
     margin: 1px 48px;
-}
-
-header {
-    background-image: url("/image/siargao-coconut-palms-drone-shot-1\ copy.jpeg");
-    background-size: cover;
-    background-position: center;
-    overflow: auto;
-    margin-top: 0px;
-    text-align: center;
-    background-attachment: fixed;
-    height: 650px;
 }
 
 .multicolortext {
@@ -94,11 +121,10 @@ p {
 
 .PLACE {
     border: 1px solid transparent;
-    /* background-color: gainsboro;
-    background-image: url('/img/fabian-quintero-UWQP2mh5YJI-unsplash.jpg'); */
     height: 400px;
     background-position: bottom right;
     text-align: center;
+    margin-bottom: 400px
     
     /* display: inline-block; */
 }
@@ -114,17 +140,19 @@ p {
     background-color: rgb(255, 255, 255,0.3);
     padding: 2px 10px;
     margin-top: -10%;
+    /* margin-bottom: -300px; */
     color: orange;
 }
 
 /* HOME PAGE */
 .row {
+    background-color: gainsboro;
     height: auto;
     width: auto;
 }
 
 .column {
-    background-color: white;
+    background-color: gainsboro;
     text-align: center;
     color: blue;
     float: left;
@@ -141,11 +169,6 @@ p {
     color: gray;
     margin-top: 2px;
     text-align: center;
-
-    /* font-size: 20px;
-    line-height: 50px;
-    color: white;
-    text-align: center; */
 }
 
 .column img {
@@ -188,48 +211,42 @@ p {
 
 .col-fifth {
     background-color: gainsboro;
-    margin-top: -639px;
+    margin-top: -637px;
     margin-bottom: 20px;
     float: right;
     /* margin-left: -80px; */
     width: 300px;
     height: 600px;
     clear: both;
+    margin-right: 110px;
 }
-
-
-/* .row {
-    border: 3px solid black;
-    height: 2000px;
-    width: 100%;
-    display: inline-block;
-
-} */
-
 
 
 /* ABOUT PAGE */
 
-#DISCOVER {
+.discover {
     border: 1px solid transparent;
     /* margin: 100px; */
     margin-top: 10px;
     background-color: rgb(243, 216, 181);
+    /* margin-bottom: 100px; */
 }
 
-#DISCOVER h1 {
+.discover h1 {
     color: blue;
     margin-top: -200px;
 }
 
-#whaleshark {
-    border: 1px solid black;
+.whaleshark {
+    border: 5px solid black;
+    border-radius: 10px;
     margin: 170px;
     margin-top: 100px;
     background-color: #fff;
 }
 
-#whaleshark p {
+
+.whaleshark p {
     font-size: 20px;
     line-height: 50px;
     color: gray;
@@ -237,96 +254,206 @@ p {
     margin-left: 10px; 
 }
 
-#Container-1 {
-    border: 1px solid black;
+.container-1 {
+    border: 1px solid transparent;
     margin: 170px;
     margin-top: -150px;
-    background-color: white;
 }
 
-#Container-1 p {
+/* .container-1 h2 {
+    text-align: center;
+} */
+
+.container-1 p {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 30px;
     color: gray;
     text-align: left;
     margin-left: 10px; 
 }
 
 .beach {
+    background-color: #fff;
     border: 1px solid black;
-    width: 50%;
+    width: 48%;
+    height: auto;
 }
 
 .hiking {
+    background-color: #fff;
     border: 1px solid black;
-    width: 50%;
-    /* float: right; */
+    width: 48%;
+    float: right;
+    margin-top: -502px;
 }
 
-#Container-2 {
-    border: 1px solid black;
+.container-2 {
+    border: 1px solid transparent;
     margin: 170px;
-    margin-top: -150px;
-    background-color: white;
-    /* float: left; */
+    margin-top: -160px;
 }
 
-#Container-2 p {
+/* .container-2 h2 {
+    text-align: center;
+} */
+
+.container-2 p {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 30px;
     color: gray;
     text-align: left;
-    margin-left: 10px; 
+    margin-left: 10px;
 }
 
 .falls {
     border: 1px solid black;
-    width: 30%;
+    background-color: white;
+    width: 32%;
+    float: left;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
 .rafting {
     border: 1px solid black;
-    width: 30%;
+    background-color: white;
+    width: 32%;
+    float:left;
+    margin-left: 22.5px;
+    margin-right: 2px;
 }
 
 .festival {
     border: 1px solid black;
-    width: 30%;
-}
-
-#Container-3 {
-    border: 1px solid black;
-    margin: 170px;
-    margin-top: -150px;
     background-color: white;
+    width: 32%;
+    float: right;
+    margin-left: 0%;
+    margin-right: 0%;
 }
 
-#Container-3 p {
+.container-3 {
+    border: 1px solid transparent;
+    margin: 170px;
+    margin-top: 15px;
+    display: inline-block;
+    margin-bottom: 0%;
+}
+
+.container-3 p {
     font-size: 20px;
-    line-height: 50px;
+    line-height: 30px;
     color: gray;
     text-align: left;
     margin-left: 10px; 
 }
 
+
+/* .container-3 h2{
+    text-align: center;
+} */
+
 .car {
     border: 1px solid black;
-    width: 20%;
+    background-color: white;
+    width: 23%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 2.5%;
 }
 
 .reef {
     border: 1px solid black;
-    width: 20%;
+    background-color: white;
+    width: 23%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 2.5%;
 }
 
 .hopping {
     border: 1px solid black;
-    width: 20%;
+    background-color: white;
+    width: 23%;
+    float: left;
+    margin-top: 0%;
+    margin-left: 0%;
+    margin-right: 2.5%;
 }
 
 .terraces {
     border: 1px solid black;
-    width: 20%;
+    background-color: white;
+    width: 23%;
+    float: right;
+    margin-top: 0%;
+    margin-left: -100%;
+    margin-right: 0%;
+}
+
+
+.background {
+    background-image: url("../image/blury-buildings.jpeg");
+    height: 500px;
+}
+
+.background h2 {
+    text-align: center;
+    font-size: 20px;
+    line-height: 50px;
+    color: white;
+    /* text-align: left; */
+    margin-left: 10px; 
+}
+
+.contact-form {
+    background-color: white;
+    margin: 8px 400px;
+    margin-left: 700px;
+    margin-right: 100px;
+}
+
+/* * {box-sizing: border-box;} */
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: rgb(124, 117, 117);
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+.map {
+    float: left;
+    margin-top: 10px;
+    margin-left: 80px;
 }
 
 
@@ -338,5 +465,14 @@ footer {
     text-align: center;
     background-color: blue;
     color: yellow;
+    margin: auto;
+    padding: auto;
 }
 
+.fa-sun {
+    color: yellow;
+}
+
+.fa-heart {
+    color: red;
+}
